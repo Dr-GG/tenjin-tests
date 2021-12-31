@@ -12,7 +12,7 @@ namespace Tenjin.Tests.Data.Builders.AutoFixture.EntityFramework
             DbContext = dbContext;
         }
 
-        public DbContext DbContext { get; }
+        public TDbContext DbContext { get; }
 
         public override void Save()
         {
