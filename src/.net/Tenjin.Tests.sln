@@ -1,11 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30709.132
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tenjin.Tests", "Tenjin.Tests\Tenjin.Tests.csproj", "{4F747C4E-87B3-48D7-B03D-DA62F9532F8C}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tenjin.Tests.Tests", "Tenjin.Tests.Tests\Tenjin.Tests.Tests.csproj", "{07109713-FFFD-4A9C-BF90-6DC129D18E4D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +15,6 @@ Global
 		{4F747C4E-87B3-48D7-B03D-DA62F9532F8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F747C4E-87B3-48D7-B03D-DA62F9532F8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F747C4E-87B3-48D7-B03D-DA62F9532F8C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{07109713-FFFD-4A9C-BF90-6DC129D18E4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{07109713-FFFD-4A9C-BF90-6DC129D18E4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{07109713-FFFD-4A9C-BF90-6DC129D18E4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{07109713-FFFD-4A9C-BF90-6DC129D18E4D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
