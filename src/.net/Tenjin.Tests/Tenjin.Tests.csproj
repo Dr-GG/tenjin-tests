@@ -6,15 +6,14 @@
     <PackageId>Tenjin.Tests</PackageId>
     <Authors>Gerard Gouws</Authors>
     <Company>Tenjin Libraries</Company>
-    <Description>Libary with re-useable services for the development of unit/integration tests</Description>
-    <PackageIcon>tenjin-tests.png</PackageIcon>
+    <Description>C# extensions and re-useable services for the development of unit/integration tests</Description>
+    <PackageIcon>tenjin.png</PackageIcon>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <PackageLicenseExpression>GPL-3.0-only</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/Dr-GG/tenjin-tests</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Dr-GG/tenjin-tests</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <RepositoryBranch>master</RepositoryBranch>
-    <PackageTags>Re-useable unit test services; Re-useable integration test services; AutoFixture extensions; Entity Framework extension</PackageTags>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -26,13 +25,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="AutoFixture" Version="4.17.0" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.2" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.2" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="tenjin-tests.png" Pack="true" PackagePath="\" />
+	<None Include="tenjin.png" Pack="true" PackagePath="\" />
   </ItemGroup>
 
 </Project>
