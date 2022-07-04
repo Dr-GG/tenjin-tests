@@ -1,7 +1,6 @@
-﻿namespace Tenjin.Tests.Data.Builders
+﻿namespace Tenjin.Tests.Data.Builders;
+
+public abstract class DataBuilder
 {
-    public abstract class DataBuilder
-    {
-        public abstract void Save();
-    }
+    public abstract void Save();
 }
