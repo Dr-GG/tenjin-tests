@@ -1,4 +1,6 @@
-﻿namespace Tenjin.Tests.Data.Builders;
+﻿// ReSharper disable UnusedMember.Global
+
+namespace Tenjin.Tests.Data.Builders;
 
 /// <summary>
 /// The abstract class that enables one to build data for unit/integration testing purposes.
